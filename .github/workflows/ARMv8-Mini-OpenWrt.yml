@@ -62,6 +62,9 @@ jobs:
         #sudo rm -rf "/usr/local/share/boost"
         #sudo rm -rf "$AGENT_TOOLSDIRECTORY"
         #rm --recursive --force "$AGENT_TOOLSDIRECTORY"
+        sudo swapoff /mnt/swapfile
+        sudo mv /mnt/swapfile /
+        sudo swapon /swapfile
         sudo cp -r /home/runner/work/n1basedapp/n1basedapp /mnt
         sudo rm -rf  /home/runner/work/n1basedapp/n1basedapp
         sudo chmod -R 777 /mnt/n1basedapp/
