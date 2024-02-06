@@ -65,6 +65,8 @@ jobs:
         sudo cp -r /home/runner/work/n1basedapp/n1basedapp /mnt
         sudo rm -rf  /home/runner/work/n1basedapp/n1basedapp
         sudo chmod -R 777 /mnt/n1basedapp/
+        sudo chmod a+x /home/runner/work/n1basedapp/n1basedapp/scripts/*.sh
+        sudo chmod a+x /home/runner/work/n1basedapp/n1basedapp/diy-mini.sh
         sudo ln -s /mnt/n1basedapp/ /home/runner/work/n1basedapp/n1basedapp
         sudo chmod -R 777 /home/runner/work/n1basedapp
         cd "$GITHUB_WORKSPACE"
