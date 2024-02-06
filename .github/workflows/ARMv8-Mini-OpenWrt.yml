@@ -62,7 +62,7 @@ jobs:
         #sudo rm -rf "/usr/local/share/boost"
         #sudo rm -rf "$AGENT_TOOLSDIRECTORY"
         #rm --recursive --force "$AGENT_TOOLSDIRECTORY"
-        sudo cp /home/runner/work/n1basedapp/n1basedapp /mnt
+        sudo cp -r /home/runner/work/n1basedapp/n1basedapp /mnt
         sudo rm -rf  /home/runner/work/n1basedapp/n1basedapp
         sudo ln -s /mnt/n1basedapp/ /home/runner/work/n1basedapp/n1basedapp
         cd "$GITHUB_WORKSPACE"
