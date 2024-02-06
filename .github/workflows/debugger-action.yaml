@@ -1,4 +1,8 @@
 name: debugger-action
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 19 1 * *
 jobs:
   build:
     runs-on: ubuntu-latest
