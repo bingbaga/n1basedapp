@@ -35,7 +35,7 @@ git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-a
 
 # 科学上网插件
 # git clone --depth=1 https://github.com/fw876/helloworld package/luci-app-ssr-plus
-git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
+#git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall /tmp/openwrt-passwall
