@@ -40,6 +40,7 @@ git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb package/lua-maxmi
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
 git clone https://github.com/xiaorouji/openwrt-passwall /tmp/openwrt-passwall
 cp -r /tmp/openwrt-passwall/luci-app-passwall package/
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 #svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 #svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
 #svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
