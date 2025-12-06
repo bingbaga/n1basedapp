@@ -4,8 +4,8 @@ name: ARMv8 Mini OpenWrt Only Package
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: 0 20 * * *
+  schedule:
+    - cron: 0 20 * * *
 
 
 env:
