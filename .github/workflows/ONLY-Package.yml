@@ -1,11 +1,11 @@
 # https://github.com/coolsnowwolf/lede.git
 # https://github.com/openwrt/openwrt
-name: ARMv8 Mini OpenWrt Only Package
+name: ARMv8 Mini OpenWrt Package
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: 0 20 * * *
+  # schedule:
+  #   - cron: 0 20 * * *
 
 
 env:
