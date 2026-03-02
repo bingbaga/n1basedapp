@@ -38,8 +38,8 @@ git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-a
 # git clone --depth=1 https://github.com/fw876/helloworld package/luci-app-ssr-plus
 #git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
-git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall
-git clone https://github.com/xiaorouji/openwrt-passwall /tmp/openwrt-passwall
+git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/openwrt-passwall
+git clone https://github.com//Openwrt-Passwall/openwrt-passwall /tmp/openwrt-passwall
 cp -r /tmp/openwrt-passwall/luci-app-passwall package/
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 #svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
@@ -139,4 +139,4 @@ find package/luci-theme-*/* -type f -name '*luci-theme-*' -print -exec sed -i '/
 #./scripts/feeds update -a
 #./scripts/feeds install -a
 rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 26.x feeds/packages/lang/golang
