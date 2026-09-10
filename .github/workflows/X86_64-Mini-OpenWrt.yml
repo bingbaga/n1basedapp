@@ -6,8 +6,10 @@ on:
   #   - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_BRANCH: master
+  # REPO_URL: https://github.com/coolsnowwolf/lede.git
+  # REPO_BRANCH: master
+  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
+  REPO_BRANCH: openwrt-25.12
   CONFIG_FILE: configs/x86_64-mini.config
   DIY_SCRIPT: diy-mini.sh
   CLASH_KERNEL: amd64
